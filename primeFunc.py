@@ -15,6 +15,7 @@ def isPrime(n):
             i += 2
     return True
 
+#problem 35
 def isCircularPrime(i):
     strI = str(i)
     for l in range(len(strI)):
@@ -23,6 +24,7 @@ def isCircularPrime(i):
             return False
     return True
 
+#problem 37
 def isTruncatable(i):
     pass
     strI = str(i)
