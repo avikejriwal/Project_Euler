@@ -1,6 +1,3 @@
-import numpy as np
-from decimal import Decimal
-
 tot = 0
 
 maxVal = 4*(10**6)

@@ -1,3 +1,14 @@
+#given a number of value n, determine whether n is prime:
+#a single number takes sqrt(n) time if prime; constant otherwise
+#(will usually terminate MUCH earlier)
+
+#Prime number theorem: probability of a
+#number being prime approaches 1/ln(n)
+
+#expected runtime: O(sqrt(n))/ln(n) + O(1)*(1-1/ln(n))
+
+#so runtime approaches O(sqrt(n)/log(n))
+
 #functions for dealing with prime numbers
 
 import math
@@ -26,7 +37,6 @@ def isCircularPrime(i):
 
 #problem 37
 def isTruncatable(i):
-    pass
     strI = str(i)
     strI2 = str(i)
     #from left
